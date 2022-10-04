@@ -1,0 +1,203 @@
+.form {
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.form input {
+
+    padding: 10px 5px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.login {
+    text-align: center;
+    padding: 20px 20px;
+    padding-bottom: 130px;
+    background-color: black;
+
+}
+
+.login p {
+    text-align: center;
+}
+
+.button {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 20px !important;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(1, 1, 54);
+    font-weight: bold;
+
+}
+
+.fundo {
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+.form-login {
+    color: aliceblue;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.form-login p {
+
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.form-login a {
+    text-decoration: none;
+}
+
+.senhaincorreta ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red !important;
+}
+
+.senhaincorreta :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red !important;
+
+}
+
+.senhaincorreta ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red !important;
+
+}
+
+.emailexiste ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red !important;
+}
+
+.emailexiste :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red !important;
+
+}
+
+.emailexiste ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red !important;
+
+}
+
+.usuarioexiste ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red !important;
+}
+
+.usuarioexiste:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red !important;
+
+}
+
+.usuarioexiste ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red !important;
+
+}
+
+.form-cadastro {
+
+    margin-left: 35%;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 20px;
+    width: 25%;
+    height: 50%;
+    padding: 30px 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.contem {
+    padding-bottom: 390px;
+    background-image: linear-gradient(0, #101917 0, #09100e 25%, #000000 50%, #000000 75%, #000000 100%);
+
+}
+
+.inicio {
+    background-color: rgba(245, 245, 245, 0.575);
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.redirect {
+    color: whitesmoke;
+}
+
+.box-degrade {
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    background-image: linear-gradient(to left, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);
+    background-size: 500% 100%;
+    animation: redirecionamento 2s infinite alternate;
+}
+
+@keyframes redirecionamento {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .contem {
+        padding-bottom: 380px;
+
+    }
+
+    .form-cadastro {
+        margin-left: 15%;
+        width: 280px;
+
+    }
+
+    .form input {
+
+        padding-left: 0px;
+
+    }
+
+    .form-login {
+        text-align: center;
+        padding: 100px 50px;
+    }
+
+
+
+
+    .form input {
+        margin-bottom: 20px;
+
+    }
+
+
+
+
+}

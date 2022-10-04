@@ -1,0 +1,107 @@
+
+
+.popup-boasvindas{
+    position: fixed !important;
+    text-align: center !important;
+    background: radial-gradient(circle, #42c4f8,#0652b6);
+    border-radius: 20px;
+   
+    z-index: 20;
+   
+    font-family: 'Montserrat', sans-serif !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding:0 100px;
+    
+}
+
+
+
+
+.overlay-popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, 0.575) !important;
+    z-index: 18;
+    transform: scale(1.0);
+}
+
+.popup h1{
+    position: relative;
+    top: 10px;
+    color: whitesmoke;
+    z-index: 5;
+    font-size: 45px;
+}
+
+.popup h2{
+    position: relative;
+    color: whitesmoke;
+    z-index: 63;
+}
+
+.popup h3{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 20px;
+    width: max-content;
+    padding: 20px 20px;
+    z-index: 5;
+    cursor: pointer;
+    display: inline-block;
+    
+    
+}
+
+.close{
+    margin-top: 5px;
+    background-color: rgba(240, 255, 255, 0.336) !important;
+    border: none;
+    border-radius: 10px !important;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.close:hover{
+    background-color: rgba(0, 0, 0, 0.342) !important;
+    color: white;
+}
+
+.popup h3:hover{
+     background-color: rgba(0, 0, 0, 0.788);
+     transform: scale(1.0);
+     color: whitesmoke;
+}
+
+.popup a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.close-popup{
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+   
+    .popup-boasvindas{
+        padding: 10px 5px;
+        margin-top: -40px;
+    }
+
+    .popup h1{
+        font-size: 29px;
+    }
+
+    .popup h2{
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+}

@@ -1,0 +1,100 @@
+.menubar{
+    font-family: 'PT sans', sans-serif;
+}
+
+#menu{
+    
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 194, 253);
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    
+}
+
+#bar1{
+    transform: translateY(-4px);
+   
+}
+
+
+#bar3{
+    transform: translateY(4px);
+    
+}
+
+.navegar li a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.navegar li a:hover{
+    font-weight: bold !important; 
+}
+
+.navegar li{
+    list-style: none;
+    padding: 16px 0;
+}
+
+.navegar{
+
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+
+}
+
+.menu-bg, #menu-bar{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu-bg{
+    z-index:10;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #6ad4ee, #1518b8);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+#menu-bar{
+    z-index: 12;
+}
+.change-bg{
+    width: 550px;
+    height: 540px;
+    transform: translate(-60%,-30%);
+}
+
+.change .bar{
+    background-color: whitesmoke;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+   
+}
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+    
+}
+.change #bar2{
+    opacity:0;
+    
+}
+
+.change{
+    display: block;
+}
